@@ -40,6 +40,7 @@ class Book_DB(models.Model):
      totalpg=models.IntegerField();
 class Book_DBAdmin(admin.ModelAdmin):
      list_display=("serialno","bookname","publisher","Dop","totalpg");
+```
 ## OUTPUT
 
 ![alt text](<Screenshot 2024-03-06 212858.png>)
